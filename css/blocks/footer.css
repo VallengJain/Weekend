@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(to top, #A5A5A5 15%, #868686 90%);
+    border-top: 2px solid #505050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 10vh;
+}
+
+.footer__copyright {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+}
