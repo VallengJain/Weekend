@@ -1,0 +1,28 @@
+.welcome-page {
+    padding: 60px 0;
+}
+
+.welcome-page__title {
+    font-size: 44px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.welcome-page__text {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin: 0 0 80px;
+}
+
+.welcome-page__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}

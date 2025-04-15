@@ -7,4 +7,6 @@
 /* ---Blocks--- */
 @import "blocks/header.css";
 @import "blocks/custom-search.css";
+@import "blocks/welcome-page.css";
+@import "blocks/category-card.css";
 @import "blocks/footer.css";
