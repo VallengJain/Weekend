@@ -1,7 +1,8 @@
 .category-card {
     display: grid;
+    grid-template-rows: auto 1fr;
     justify-content: center;
-    gap: 10px;
+    gap: 35px;
     width: 600px;
     min-height: 600px;
     background: linear-gradient(#777777 0%, #555555 100%);
@@ -38,6 +39,7 @@
     width: 100%;
     height: fit-content;
     border-radius: 96px 96px 0 0;
+    border-bottom: 3px solid #008cff;
 }
 
 .category-card__inner {
