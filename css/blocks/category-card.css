@@ -2,7 +2,6 @@
     display: grid;
     grid-template-rows: auto 1fr;
     justify-content: center;
-    gap: 1.5vw;
     width: 15.625vw;
     height: 27.8vh;
     background: linear-gradient(#777777 0%, #555555 100%);
@@ -43,15 +42,16 @@
 }
 
 .category-card__inner {
+    margin: auto 0;
     padding: 0 10px;
 }
 
 .category-card__title {
-    font-size: 1.94vh;
+    font-size: 2vh;
     font-weight: 500;
     text-align: center;
     color: #FFFFFF;
-    margin: 0 0 25px;
+    margin: 0;
 }
 
 .category-card__text {
