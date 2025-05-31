@@ -2,6 +2,10 @@
     display: flex;
     width: 300px;
 
+    @include vp-767 {
+        display: none;
+    }
+
     &__field {
         font-family: inherit;
         border: none;

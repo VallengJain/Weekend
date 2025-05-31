@@ -1,6 +1,14 @@
 .welcome-page {
     padding: 50px 0;
 
+    @include vp-1439 {
+        padding: 30px 0;
+    }
+
+    @include vp-767 {
+        padding: 20px 0;
+    }
+
     &__title {
         font-size: 44px;
         line-height: 40px;
@@ -8,6 +16,18 @@
         color: #FFFFFF;
         text-align: center;
         margin: 0 0 30px;
+
+        @include vp-1439 {
+            font-size: 36px;
+            line-height: 32px;
+            margin: 0 0 25px;
+        }
+
+        @include vp-767 {
+            font-size: 32px;
+            line-height: 28px;
+            margin: 0 0 20px;
+        }
     }
 
     &__text {
@@ -16,6 +36,16 @@
         text-align: center;
         display: block;
         margin: 0 0 50px;
+
+        @include vp-1439 {
+            font-size: 26px;
+            margin: 0 0 40px;
+        }
+
+        @include vp-767 {
+            font-size: 20px;
+            margin: 0 0 30px;
+        }
     }
 
     &__content {
@@ -23,6 +53,16 @@
         grid-template-columns: repeat(3, auto);
         align-items: center;
         justify-content: center;
-        gap: 1.95vw;
+        gap: 30px;
+
+        @include vp-1439 {
+            grid-template-columns: repeat(2, auto);
+            gap: 25px;
+        }
+
+        @include vp-767 {
+            grid-template-columns: auto;
+            gap: 20px;
+        }
     }
 }

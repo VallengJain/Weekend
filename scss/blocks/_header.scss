@@ -9,12 +9,28 @@
         grid-template-columns: auto 1fr auto;
         align-items: center;
         gap: 30px;
+
+        @include vp-1439 {
+            gap: 25px;
+        }
+
+        @include vp-767 {
+            gap: 20px;
+        }
     }
     
     &__logo {
         font-size: 28px;
         font-weight: 600;
         line-height: 24px;
+
+        @include vp-1439 {
+            font-size: 26px;
+        }
+
+        @include vp-767 {
+            font-size: 24px;
+        }
     }
     
     &__links {
@@ -27,5 +43,15 @@
         font-size: 18px;
         line-height: 18px;
         font-weight: 400;
+
+        @include vp-1439 {
+            font-size: 17px;
+            line-height: 17px;
+        }
+
+        @include vp-767 {
+            font-size: 16px;
+            line-height: 16px;
+        }
     }
 }

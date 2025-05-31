@@ -5,11 +5,31 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    min-height: 10vh;
+    min-height: 100px;
+
+    @include vp-1439 {
+        min-height: 90px;
+    }
+
+    @include vp-767 {
+        min-height: 80px;
+    }
 
     &__copyright {
         font-size: 28px;
         line-height: 28px;
         font-weight: 600;
+        display: flex;
+        justify-content: center;
+
+        @include vp-1439 {
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+        @include vp-767 {
+            font-size: 20px;
+            line-height: 20px;
+        }
     }
 }
