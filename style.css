@@ -315,7 +315,7 @@ input[type=search]::-webkit-search-results-decoration {
   text-align: center;
   color: #FFFFFF;
   margin: 0;
-  word-break: keep-all;
+  white-space: nowrap;
 }
 @media (max-width: 1439px) {
   .category-card__title {
