@@ -265,6 +265,12 @@ input[type=search]::-webkit-search-results-decoration {
     border-radius: 80px;
   }
 }
+@media (min-width: 2560px) {
+  .category-card {
+    width: 400px;
+    height: 400px;
+  }
+}
 .category-card::after {
   content: "";
   position: absolute;

@@ -18,6 +18,11 @@
         height: 300px;
         border-radius: 80px;
     }
+    
+    @include vp-2560 {
+        width: 400px;
+        height: 400px;
+    }
 
     &::after {
         content: '';

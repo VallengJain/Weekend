@@ -15,3 +15,9 @@
         @content;
     }
 }
+
+@mixin vp-2560 {
+    @media (min-width: $vp-qhd) {
+        @content;
+    }
+}
