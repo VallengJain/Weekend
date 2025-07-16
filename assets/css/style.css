@@ -715,8 +715,17 @@ input[type=search]::-webkit-search-results-decoration {
     height: 17px;
   }
 }
+.swiper-pagination-bullet:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.swiper-pagination-bullet:focus-visible {
+  outline: none;
+}
 .swiper-pagination-bullet-active {
   background: #008cff;
+}
+.swiper-pagination-bullet-active:hover {
+  background: rgba(0, 140, 255, 0.8);
 }
 .swiper__image {
   margin: 0 auto;

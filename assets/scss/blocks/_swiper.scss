@@ -20,8 +20,20 @@
             height: 17px;
         }
 
+        &:hover {
+            background: $color-white-50;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+
         &-active {
             background: $color-dodger-blue;
+
+            &:hover {
+                background: $color-dodger-blue-80;
+            }
         }
     }
 
