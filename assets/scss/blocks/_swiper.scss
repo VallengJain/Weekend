@@ -30,6 +30,7 @@
 
         &-active {
             background: $color-dodger-blue;
+            border: 2px solid $color-white;
 
             &:hover {
                 background: $color-dodger-blue-80;

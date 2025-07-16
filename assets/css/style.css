@@ -723,6 +723,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .swiper-pagination-bullet-active {
   background: #008cff;
+  border: 2px solid #ffffff;
 }
 .swiper-pagination-bullet-active:hover {
   background: rgba(0, 140, 255, 0.8);
