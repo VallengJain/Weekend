@@ -430,6 +430,8 @@ input[type=search]::-webkit-search-results-decoration {
   font-size: 28px;
   font-weight: 600;
   line-height: 24px;
+  min-width: 105px;
+  height: 24px;
 }
 @media (max-width: 1439px) {
   .header__logo {
