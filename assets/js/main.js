@@ -1,4 +1,4 @@
-import { showLoader, hideLoader } from "./loader.js";
+import { hideLoader } from "./loader.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     if (document.readyState === "complete") {
