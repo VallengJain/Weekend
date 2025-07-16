@@ -23,6 +23,8 @@
         font-size: 28px;
         font-weight: 600;
         line-height: 24px;
+        min-width: 105px;
+        height: 24px;
 
         @include vp-1439 {
             font-size: 26px;
