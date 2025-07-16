@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: "Exo-2", "Arial", sans-serif;
+    font-family: $ff-exo-2;
     font-style: normal;
     font-weight: 400;
-    color: #FFFFFF;
+    color: $color-white;
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,7 +29,7 @@ img {
 }
 
 a {
-    color: #FFFFFF;
+    color: $color-white;
     text-decoration: none;
 }
 

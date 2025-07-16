@@ -13,7 +13,7 @@
         font-size: 44px;
         line-height: 40px;
         font-weight: 600;
-        color: #FFFFFF;
+        color: $color-white;
         text-align: center;
         margin: 0 0 30px;
 
@@ -32,7 +32,7 @@
 
     &__text {
         font-size: 32px;
-        color: #FFFFFF;
+        color: $color-white;
         text-align: center;
         display: block;
         margin: 0 0 50px;

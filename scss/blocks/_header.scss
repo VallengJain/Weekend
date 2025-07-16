@@ -2,7 +2,7 @@
     padding: 15px 0;
     width: 100%;
     background: linear-gradient(to bottom, #A5A5A5 0%, #868686 90%);
-    border-bottom: 2px solid #505050;
+    border-bottom: 2px solid $color-matterhorn;
 
     &__wrapper {
         display: grid;

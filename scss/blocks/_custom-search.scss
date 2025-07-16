@@ -9,30 +9,30 @@
     &__field {
         font-family: inherit;
         border: none;
-        border-bottom: 2px solid #505050;
+        border-bottom: 2px solid $color-matterhorn;
         background-color: transparent;
         padding: 10px 7px;
         width: 100%;
         font-size: 16px;
         line-height: 16px;
         font-weight: 400;
-        color: #FFFFFF;
+        color: $color-white;
         border-radius: 10px;
 
         &:focus-visible {
             outline: none;
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: $color-white-10;
         }
 
         &::placeholder {
             font-size: 16px;
             line-height: 16px;
             font-weight: 400;
-            color: rgba(255, 255, 255, 0.5);
+            color: $color-white-50;
         }
         
         &:hover::placeholder {
-            color: rgba(255, 255, 255, 0.8);
+            color: $color-white-80;
         }
     }
 }
