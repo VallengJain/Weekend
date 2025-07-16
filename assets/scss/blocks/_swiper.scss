@@ -1,0 +1,32 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 0 50px;
+
+    &-pagination-bullet {
+        width: 45px;
+        height: 22px;
+        border: 2px solid $color-white;
+
+        @include vp-1439 {
+            width: 40px;
+            height: 20px;
+        }
+
+        @include vp-767 {
+            width: 35px;
+            height: 17px;
+        }
+
+        &-active {
+            background: $color-dodger-blue;
+        }
+    }
+
+    &__image {
+        margin: 0 auto;
+        border-radius: 50px;
+    }
+}

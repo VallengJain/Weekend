@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Город Казань</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
@@ -17,22 +19,22 @@
                     <button class="dropdown__toggle" type="button">Меню</button>
                     <ul class="dropdown__list">
                         <li class="dropdown__item">
-                            <a class="dropdown__link" href="moscow.html">Москва</a>
+                            <a class="dropdown__link" href="../pages/moscow.html">Москва</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="kazan.html">Казань</a>
+                            <a class="dropdown__link" href="../pages/kazan.html">Казань</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="saint-petersburg.html">Алтай</a>
+                            <a class="dropdown__link" href="../pages/saint-petersburg.html">Питер</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="altai.html">Сочи</a>
+                            <a class="dropdown__link" href="../pages/altai.html">Алтай</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="sochi.html">Казань</a>
+                            <a class="dropdown__link" href="../pages/sochi.html">Сочи</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="anapa.html">Анапа</a>
+                            <a class="dropdown__link" href="../pages/anapa.html">Анапа</a>
                         </li>
                     </ul>
                 </nav>
@@ -49,7 +51,35 @@
         <div class="loader">
             <div class="loader__icon"></div>
         </div>
-        <div class="page"></div>
+        <div class="page-content">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/kazan.jpg" alt="Фотография Москвы"
+                                width="1280" height="720">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/kazan.jpg"
+                                alt="Фотография памятника Перту Первому" width="1280" height="720">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/kazan.jpg" alt="Фотография Красной Площади"
+                                width="1280" height="720">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <h1 class="page-content__title">Казань</h1>
+                <p class="page-content__text">
+                    Казань&nbsp;&mdash; это крупный город в&nbsp;России, столица Республики Татарстан, расположенный
+                    на&nbsp;левом берегу реки Волги при впадении в&nbsp;нее реки Казанки. Это один из&nbsp;крупнейших
+                    экономических, научных, культурных и&nbsp;спортивных центров России, а&nbsp;также важный
+                    туристический центр. Город известен своим тысячелетним возрастом и&nbsp;уникальным сочетанием
+                    русской и&nbsp;татарской культур.
+                </p>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">

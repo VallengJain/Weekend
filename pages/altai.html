@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Республика Алтай</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
@@ -17,22 +19,22 @@
                     <button class="dropdown__toggle" type="button">Меню</button>
                     <ul class="dropdown__list">
                         <li class="dropdown__item">
-                            <a class="dropdown__link" href="moscow.html">Москва</a>
+                            <a class="dropdown__link" href="../pages/moscow.html">Москва</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="kazan.html">Казань</a>
+                            <a class="dropdown__link" href="../pages/kazan.html">Казань</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="saint-petersburg.html">Алтай</a>
+                            <a class="dropdown__link" href="../pages/saint-petersburg.html">Питер</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="altai.html">Сочи</a>
+                            <a class="dropdown__link" href="../pages/altai.html">Алтай</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="sochi.html">Казань</a>
+                            <a class="dropdown__link" href="../pages/sochi.html">Сочи</a>
                         </li>
                         <li>
-                            <a class="dropdown__link" href="anapa.html">Анапа</a>
+                            <a class="dropdown__link" href="../pages/anapa.html">Анапа</a>
                         </li>
                     </ul>
                 </nav>
@@ -49,7 +51,35 @@
         <div class="loader">
             <div class="loader__icon"></div>
         </div>
-        <div class="page"></div>
+        <div class="page-content">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/altai.jpg" alt="Фотография Москвы"
+                                width="1280" height="720">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/altai.jpg"
+                                alt="Фотография памятника Перту Первому" width="1280" height="720">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__image" src="../assets/images/altai.jpg" alt="Фотография Красной Площади"
+                                width="1280" height="720">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <h1 class="page-content__title">Алтай</h1>
+                <p class="page-content__text">
+                    Алтай&nbsp;&mdash; это горный регион, расположенный на&nbsp;юге Сибири и&nbsp;в&nbsp;Центральной
+                    Азии, который включает в&nbsp;себя Алтайский край и&nbsp;Республику Алтай. Известен своими
+                    живописными пейзажами, горными хребтами, реками и&nbsp;озерами, а&nbsp;также богатым животным
+                    и&nbsp;растительным миром. Алтай также славится своей энергетической силой и&nbsp;является местом
+                    проведения различных фестивалей.
+                </p>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
