@@ -5,7 +5,9 @@ export const dropdown = () => {
         const toggle = dropdown.querySelector('.dropdown__toggle');
         const menu = dropdown.querySelector('.dropdown__list');
 
-        toggle.addEventListener('click', function () {
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
             menu.classList.toggle('show');
         });
     });
